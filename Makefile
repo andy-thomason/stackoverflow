@@ -1,7 +1,7 @@
 
 src = $(wildcard *.cpp)
 exe = $(patsubst %.cpp,%,$(src))
-CXXFLAGS = -std=c++11 -pthread
+CXXFLAGS = -O3 -std=c++14 -pthread
 
 all: $(exe)
 
